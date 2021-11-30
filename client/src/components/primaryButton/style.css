@@ -1,0 +1,20 @@
+.primary-button-content {
+  display: flex;
+  align-items: center;
+  min-width: 100px;
+}
+
+.primary-button-content button {
+  min-height: 36px;
+  line-height: 1;
+}
+
+.primary-button-content button:hover {
+  cursor: pointer;
+}
+
+.primary-button-content button svg {
+  height: 1rem;
+  width: auto;
+  margin-right: 0.5rem;
+}

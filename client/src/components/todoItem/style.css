@@ -1,0 +1,47 @@
+.todo-item-component-content {
+  border: 1px solid #c4c4c4;
+  border-radius: 4px;
+  padding: 16px;
+  min-width: 360px;
+  width: 50%;
+  min-height: 24px;
+  max-height: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  grid-gap: 16px;
+  gap: 16px;
+}
+
+.todo-item-component-content span {
+  word-break: break-word;
+}
+.todo-item-component-content svg {
+  font-size: 1.2rem;
+  transition: .5s;
+  margin-left: 8px;
+  filter: brightness(.6);
+}
+
+.todo-item-component-content svg:hover {
+  cursor: pointer;
+  filter: brightness(1);
+}
+
+.todo-item-component-content a {
+  flex: 1;
+  max-width: 560px;
+  word-wrap: break-word;
+  text-decoration: none;
+  color: black;
+  transition: .5s;
+}
+
+.todo-item-component-date {
+  width: 100px;
+}
+
+.todo-item-component-content a:hover {
+  color: var(--color-primary);
+}

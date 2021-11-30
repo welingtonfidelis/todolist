@@ -1,0 +1,8 @@
+.text-input-component-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 360px;
+  max-width: 500px;
+  margin-bottom: 1.2rem;
+}
